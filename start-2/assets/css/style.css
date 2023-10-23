@@ -194,6 +194,8 @@ footer a {
 
 /*Inizio*/
 
+/*MOBILE*/
+
 @media screen and (min-width: 576px) {
   header nav ul {
     justify-content: center;
@@ -204,10 +206,29 @@ footer a {
     margin: auto;
     padding-bottom: 70px;
   }
-  section h2 {
-    background-color: gray;
-  }
   input {
     width: 70%;
   }
 }
+
+/* MEDIUM*/
+
+@media screen and (min-width: 768px) {
+  table {
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+  }
+  input {
+    width: 70%;
+  }
+  main table {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+  caption {
+    margin-top: 40px;
+  }
+}
+
+/* DESKTOP */
