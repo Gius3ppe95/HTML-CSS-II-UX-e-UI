@@ -198,6 +198,7 @@ footer a {
 
 @media screen and (min-width: 576px) {
   header nav ul {
+    display: flex;
     justify-content: center;
   }
   table {
@@ -206,12 +207,12 @@ footer a {
     margin: auto;
     padding-bottom: 70px;
   }
+
   input {
     width: 70%;
   }
 }
-
-/* MEDIUM*/
+/*MEDIUM*/
 
 @media screen and (min-width: 768px) {
   table {
@@ -230,5 +231,78 @@ footer a {
     margin-top: 40px;
   }
 }
+/*DESKTOP*/
 
-/* DESKTOP */
+@media screen and (min-width: 1200px) {
+  header {
+    display: flex;
+    height: 60px;
+    padding-top: 1px;
+    justify-content: space-between;
+  }
+  header div {
+    display: flex;
+  }
+  header div img {
+    max-width: 150px;
+    padding: 0;
+    margin: 0;
+  }
+  header div p {
+    padding-top: 18px;
+    padding-left: 30px;
+    font-size: 1.2em;
+  }
+  header nav {
+    padding-top: 20px;
+    padding-left: 23rem;
+  }
+  header nav ul {
+    font-size: 1.2em;
+    display: flex;
+    margin-left: 2em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  main table {
+    width: 60%;
+    margin-bottom: 80px;
+  }
+  caption {
+    margin-top: 80px;
+  }
+  main {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  header {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  iframe {
+    display: inline-block;
+    width: 47%;
+  }
+  main section {
+    display: inline-block;
+    width: 47%;
+  }
+  aside div {
+    width: 33%;
+    display: inline-block;
+  }
+
+  footer {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
